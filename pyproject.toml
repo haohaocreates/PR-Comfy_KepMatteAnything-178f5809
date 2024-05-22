@@ -1,0 +1,15 @@
+[project]
+name = "comfy_kepmatteanything"
+description = "This extension provides a custom node that allows the use of [a/Matte Anything](https://github.com/hustvl/Matte-Anything) in ComfyUI."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["segment-anything @ git+https://github.com/facebookresearch/segment-anything.git", "detectron2 @ git+https://github.com/facebookresearch/detectron2.git", "groundingdino-py"]
+
+[project.urls]
+Repository = "https://github.com/M1kep/Comfy_KepMatteAnything"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfy_KepMatteAnything"
+Icon = ""
